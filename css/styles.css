@@ -1,0 +1,32 @@
+html, body {
+  background-color: #E0E0E0;
+}
+.navbar {
+  background-color: #FFFFFF;
+  height: 5vh;
+  border-radius: 0;
+  margin-bottom: 0px;
+}
+.img {
+  width: 100%;
+}
+.pic1 {
+  height: 35vh;
+  background-image: url('../img/bg1.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.pic2{
+  height: 17.5vh;
+  background-image: url('../img/bg2.jpg');
+  background-position: center;
+  background-size: cover;
+}
+.pic3 {
+  height: 17.5vh;
+  background-image: url('../img/b3.jpg');
+  background-position: center;
+  background-size: cover;
+}
+/*.pic1 { transition: all .2s ease-in-out; }
+.pic1:hover { transform: scale(1.1); }*/
