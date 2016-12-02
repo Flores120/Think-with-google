@@ -1,6 +1,9 @@
 html, body {
   background-color: #E0E0E0;
 }
+.head-text {
+  font-size: 20px;
+}
 .container {
   width: 90%;
 }
@@ -23,13 +26,15 @@ html, body {
   background-size: cover;
 }
 .content1 {
+  margin-left: 3em;
   padding: 1em;
-  width: 40%;
+  width: 400px;
   height: 25vh;
   position: relative;
   top: 40%;
   color: white;
   background-color: #263238;
+  /*transition: all .5s;*/
 }
 .pic2{
   padding: 0;
@@ -62,5 +67,35 @@ html, body {
   color: white;
   background-color: #009688;
 }
-/*.pic1,.pic2,.pic3 { transition: all .2s ease-in-out; }
-.pic1:hover,.pic2:hover,.pic3:hover { transform: scale(1.1); }*/
+.con2 {
+  padding: 0;
+}
+.pic4 img{
+  padding: 1em;
+  width: 90%
+}
+.sub {
+  font-size: 18px;
+}
+.box1 {
+  background-color: #F5F5F5;
+}
+/*.con:hover .pic1,
+.con:focus .pic1 {
+  transform: scale(1.2);
+}*/
+@media screen and (max-width: 900px) {
+  .pic4 img{
+    width: 100%
+  }
+
+}
+@media screen and (max-width: 600px) {
+  .content1 {
+    width: 90%;
+    height: 13vh;
+    position: relative;
+    top: 65%;
+    color: white;
+  }
+}
